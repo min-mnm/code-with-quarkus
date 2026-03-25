@@ -1,13 +1,14 @@
-# code-with-quarkus
+# quarkus 프로젝트 시작! (학번 : 20250901 이름 : 김민영)
+매 주 수업 내용을 정리하자.
+## 4주차 수업 내용
+실습 1 : 챔피언 선택 화면 크기 설정 변경 및 메인화면 네비게이션 바 변경 완료
+실습 2 : 아트록스 상세보기 설정 페이지 설정 완료
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+<div align="center">
+<img src="screenshots/2026-01-26 오전 9_51_43.png" width="45%" alt="실습 1 화면">
+<img src="screenshots/파일명.png" width="45%" alt="실습 2 화면">
+</div>
+<br>
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
-
-## Running the application in dev mode
-
-You can run your application in dev mode that enables live coding using:
-
-```shell script
-./mvnw quarkus:dev
-```
+## x주차 수업 내용
+테스트
