@@ -9,12 +9,14 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/test.js"></script>
 
+    <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
+    <link rel="stylesheet" href="css/main.css">
     <script>
         window.onload = function() {
         alert("메인 페이지 로딩 완료");
         }
     </script>
-    <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
+     
     <style>
         body { background-color: #0a0e17; color: #fff; font-family: 'Arial', sans-serif; }
         .navbar { background-color: #000; }
@@ -254,6 +256,28 @@
                 <div class="search-category-item active" onclick="switchCategory('champion', this)">
     챔피언 <span class="count" id="champCount">(0)</span>
     </div>
+        <div class="search-category-item" onclick="switchCategory('news', this)">
+            뉴스 <span class="count" id="newsCount">(0)</span>
+            </div>
+        </div>
+        <!-- 오른쪽 콘텐츠 -->
+        <div class="col-md-9 col-lg-10 search-content-area">
+        <!-- 챔피언 결과 -->
+        <div id="resultChampion">
+        <h5 class="mb-4" style="color:#333;">챔피언</h5>
+            <div id="championResultList"></div>
+        </div>
+         <!-- 뉴스 결과 -->
+            <div id="resultNews" style="display:none;">
+             <h5 class="mb-4" style="color:#333;">뉴스</h5>
+                <div id="newsResultList"></div>
+                </div>
+                    </div>
+             </div>
+        </div>
+    </div>
+</section>
+
     <script src="js/search.js"></script>
 </body>
 </html>
