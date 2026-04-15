@@ -237,6 +237,23 @@
             </div>
         </div>
     </section>
+
+    <!-- ===== 검색 결과 섹션 (기본 숨김) ===== -->
+    <section id="searchResults">
+        <!-- 키워드 헤더 -->
+        <div class="search-keyword-header">
+            <h1 id="searchKeywordDisplay"></h1>
+        </div>
+    <!-- 본문: 사이드바 + 콘텐츠 -->
+        <div class="search-body">
+            <div class="container-fluid px-0">
+                <div class="row g-0">
+    <!-- 왼쪽 카테고리 사이드바 -->
+        <div class="col-md-3 col-lg-2 search-sidebar bg-white py-4">
+            <div class="px-3 mb-3" style="font-size:0.8rem; color:#999; text-transform:uppercase; letter-spacing:0.1em;">카테고리</div>
+                <div class="search-category-item active" onclick="switchCategory('champion', this)">
+    챔피언 <span class="count" id="champCount">(0)</span>
+    </div>
     <script src="js/search.js"></script>
 </body>
 </html>
